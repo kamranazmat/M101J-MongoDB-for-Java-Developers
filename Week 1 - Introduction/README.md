@@ -13,3 +13,17 @@
 
 MongoDB represents JSON documents in binary-encoded format called BSON behind the scene.  
 BSON extends the JSON model to provide additional data types, ordered fields, and to be efficient for encoding and decoding within different languages.  
+
+### CRUD
+- Create
+- Read
+- Update
+- Delete
+
+The return value of ``` find ``` is not simply an array of documents. It's instead a cursor object.
+```sh
+> var c = db.movies.find()
+> c.hasNext()
+true
+> c.next()
+```
