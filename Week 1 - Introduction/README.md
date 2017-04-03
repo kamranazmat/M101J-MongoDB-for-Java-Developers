@@ -15,10 +15,10 @@ Which of the following value types are defined by the JSON spec?
 BSON extends the JSON model to provide additional data types, ordered fields, and to be efficient for encoding and decoding within different languages.
 
 #### CRUD
-> Create
-> Read
-> Update
-> Delete
+> Create  
+> Read  
+> Update  
+> Delete  
 
 The return value of `find` is not simply an array of documents. It's instead a cursor object.
 ```sh
@@ -45,3 +45,10 @@ Intro to **FreeMarker Java Template Engine**
 Template File: **.ftl*  
 
 | Template File | + | Java Objects | ---> **<FreeMarker>** ---> | Output |  
+
+Spark Route:
+- Jetty server  
+- inside Jetty there is Spark Handler  
+- within Spark Handler there are one or more routes  
+
+Intro to Class Project - The Blog  
