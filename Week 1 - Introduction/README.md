@@ -40,8 +40,8 @@ Define value for property 'artifactId': M101J
 .
 $ cd M101J
 ```
-Using: **IntelliJ IDEA**
-Intro to **FreeMarker Java Template Engine**
-Template File: **.ftl*
+Using: **IntelliJ IDEA**  
+Intro to **FreeMarker Java Template Engine**   
+Template File: **.ftl*  
 
-| Template File | + | Java Objects | ---> **<FreeMarker>** ---> | Output |
+| Template File | + | Java Objects | ---> **<FreeMarker>** ---> | Output |  

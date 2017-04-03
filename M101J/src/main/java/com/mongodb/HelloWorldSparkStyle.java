@@ -10,9 +10,11 @@ import spark.Spark;
  */
 public class HelloWorldSparkStyle {
     public static void main(String[] args) {
-        Spark.get("/", new Route() {
-                public Object handle(Request request, Response response) throws Exception {
-                return "Hello World From Spark";
+        Spark.get(new Route("/") {
+            @Override
+            public Object handle(final Request request,
+                                 final Response response) {
+                return "Hello World From Spark\n";
             }
         });
     }
